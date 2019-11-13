@@ -1,0 +1,53 @@
+package prexercise01;
+
+import java.util.Scanner;
+
+public class ProbInBook5_1ElseIf {
+	public static void main (String[] args) {
+		//5-1
+		Scanner scanner = new Scanner(System.in);
+		int num = scanner.nextInt();
+		
+		if (num < 0) {
+			System.out.println("0 미만");
+			
+		} else if (0 <= num) {
+			System.out.println("0 이상 100 미만");
+			
+		} else if (100 <= num) {
+			System.out.println("100 이상 200 미만");
+			
+		} else if (200 <= num) {
+			System.out.println("200 이상 300 미만");
+			
+		} else {
+			System.out.println("300 이상");
+			
+		}
+		 
+		scanner.close();
+		
+		//5-2
+		
+		int num1= 50, num2= 100;
+		
+		if (num1 > num2) {
+			System.out.println(num1);
+			
+		} else {
+			System.out.println(num2);
+			
+		}
+		
+		if (num1 > num2) {
+			System.out.println(num1 - num2);
+			
+		} else {
+			System.out.println(num2 - num1);
+			
+		}
+		
+		
+	}//main
+}//class
+;

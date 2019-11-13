@@ -1,0 +1,25 @@
+package prexercise01;
+
+public class ProInBook5_7DupForLable {
+
+	public static void main(String[] args) {
+		//구구단을 짝수만 외자
+		//단, 2단은 2x2, 4단은 4x4 ... 8단은 8x8까지만 출력
+		for (int i = 1; i < 10; i++) {
+			if (i % 2 != 0) {
+				continue;
+				
+			}else {
+				System.out.println(i + "단");
+				for (int j = 1; j <= i; j++) {
+					System.out.println(i + " X " + j + " = " + i*j);
+					
+				}
+				
+			}
+		
+		}
+
+	}//main
+
+}//class

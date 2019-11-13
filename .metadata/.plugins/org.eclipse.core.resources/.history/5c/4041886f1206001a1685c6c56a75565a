@@ -1,0 +1,11 @@
+package Parking;
+
+public class ToyCar extends Car {
+
+	@Override
+	void park() {
+		System.out.println("ToyCar: ÁÖÂ÷µÊ");
+
+	}
+
+}

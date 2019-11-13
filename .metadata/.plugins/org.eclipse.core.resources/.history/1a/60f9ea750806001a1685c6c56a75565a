@@ -1,0 +1,15 @@
+package chapter01;
+
+public class CarTest {
+
+	public static void main(String[] args) {
+		Car c = new Car();
+		c.run();
+		
+		Bus bus = new Bus();
+		bus.run();
+		
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package chapter01;
+
+public class BookApp {
+	public static void main(String[] args) {
+
+		Book book = new Book();  //evernote 에 참조 설명
+		bs[0].price = 1000;
+		
+		Book[] bs = new Book[3];
+		
+		
+		
+		
+	}//main
+}//class

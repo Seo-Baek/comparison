@@ -1,0 +1,25 @@
+package prexercise01;
+
+public class ProInBook6_1Method {
+
+	public static void main(String[] args) {
+		
+		simpleOpr (7,3)
+		
+	}//main
+
+
+
+	public static void simpleOpr (int i, int j) {
+		System.out.println(i + j);
+		System.out.println(i - j);
+		System.out.println(i * j);
+		System.out.println(i / j);
+		System.out.println(i % j);
+		
+		
+		
+	}
+	
+	
+}//class

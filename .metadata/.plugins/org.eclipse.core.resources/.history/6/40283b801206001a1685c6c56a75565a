@@ -1,0 +1,16 @@
+package Parking;
+
+public class ParkingSystem {
+//	void park (Bus bus) {
+//		bus.park();
+//
+//	}
+//	
+//	void park (SportsCar sportsCar) {
+//		sportsCar.park();
+	
+	void park(Parkable parable) {
+		parkable.park();
+
+	}
+}

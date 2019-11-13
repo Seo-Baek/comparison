@@ -1,0 +1,17 @@
+package chapter01;
+
+public class BookApp {
+	public static void main(String[] args) {
+
+		//Book book = new Book();  //evernote 에 참조 설명    ()는 객체를 만든것
+		
+		Book[] bs = new Book[3];   //[] 는 공간만 만든것
+		//bs[0].price = 1000;
+		
+		for(Book b: bs) {
+			System.out.println(b);
+		}
+		
+		
+	}//main
+}//class

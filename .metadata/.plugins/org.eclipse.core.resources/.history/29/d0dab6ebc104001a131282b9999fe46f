@@ -1,0 +1,26 @@
+package prexercise01;
+
+public class WhileDoWhile5_4 {
+	
+	public static void main(String[] args) {
+		// 1부터 99까지의 합을 구하는 프로그램
+		int num = 0;
+		int sum = 0;
+//		
+//		while (num < 100) {
+//			sum += num;
+//			num++;
+//			
+//		}
+		
+		while (num < 100) {
+			sum = sum + num;
+			num++;
+		}
+		
+		System.out.println(sum);
+		
+		
+	}//main
+	
+}//class

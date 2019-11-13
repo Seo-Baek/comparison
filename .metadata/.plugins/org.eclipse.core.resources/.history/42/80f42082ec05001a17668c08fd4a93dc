@@ -1,0 +1,26 @@
+package practice01;
+
+public class Prob05 {
+
+	public static void main(String[] args) {
+		
+		
+		int number = 10000;
+		String strNumber = String.valueOf(number);
+		char c = strNumber.charAt(i);
+		
+		for(int i = 1; i <= number; i++) {
+			
+			if(c == '3' || c == '6' || c == '9') {
+				int a = (int) c;
+				for (int clapCount = 0; clapCount <= a; clapCount++  )
+				
+				System.out.println(c + "¦");
+			}
+			
+		}
+		
+		
+	}//main
+
+}//class

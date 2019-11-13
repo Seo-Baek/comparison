@@ -1,0 +1,8 @@
+package Parking;
+
+public class Poclain extends Car{
+	@Override
+	void park() {
+		System.out.println("Poclain: ÁÖÂ÷µÊ");
+	}
+}

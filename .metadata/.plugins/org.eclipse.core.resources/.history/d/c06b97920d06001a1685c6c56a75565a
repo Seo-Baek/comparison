@@ -1,0 +1,6 @@
+package Parking;
+
+public class ParkingSystem {
+	void parak(Bus bus) {
+		bus.park();
+}

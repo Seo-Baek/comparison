@@ -1,0 +1,19 @@
+package chapter01;
+
+public class CarTest {
+
+	public static void main(String[] args) {
+	
+		Bus bus = new Bus();
+		bus.run();
+		
+		Car c = new Bus(); // 상속 관계에서는 이렇게 써야한다!
+		c.run();
+		
+		// 오류
+		// Bus b = new Car();
+		// 작은 것이 큰 것이 될 수 없으니까.
+
+	}
+
+}

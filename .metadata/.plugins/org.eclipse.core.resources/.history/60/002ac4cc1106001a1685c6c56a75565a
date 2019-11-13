@@ -1,0 +1,6 @@
+package Parking;
+
+public abstract class Car {
+	abstract void park(); // 추상클래스!!  구현이 안됨 (단순 확장성 때문에 생성된 클래스)
+
+}

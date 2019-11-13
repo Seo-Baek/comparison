@@ -1,0 +1,19 @@
+package chapter01;
+
+public class DoWhileTest {
+
+	public static void main(String[] args) {
+		int input = 0;
+		
+		do {
+			System.out.print("ют╥б");
+			input = scanner.nextInt();
+	
+			System.out.println(input);
+			
+		} while (input > 0);
+		
+		
+	}
+
+}

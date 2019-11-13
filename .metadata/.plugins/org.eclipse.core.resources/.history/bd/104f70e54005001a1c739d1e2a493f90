@@ -1,0 +1,16 @@
+package chapter01;
+
+public class BookApp {
+	public static void main(String[] args) {
+
+		Book book = new Book();  //evernote 에 참조 설명
+		
+		String s = new String("hello");
+		
+		System.out.println(s);
+		System.out.println(book);
+		
+		
+		
+	}//main
+}//class

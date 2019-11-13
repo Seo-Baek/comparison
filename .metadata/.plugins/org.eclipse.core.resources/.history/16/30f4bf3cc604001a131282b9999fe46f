@@ -1,0 +1,16 @@
+package prexercise01;
+
+public class ProInBook5_5For {
+
+	public static void main(String[] args) {
+		//1부터 100까지 곱해서 출력
+		for(int i = 0; i < 101; i++) {
+			i *= j;
+			
+		}
+		System.out.println(j);
+		
+
+	}//main
+
+}//class

@@ -1,0 +1,9 @@
+package Parking;
+
+public class Bus {
+	void park() {
+		System.out.println("Bus: ÁÖÂ÷µÊ");
+		
+	}
+
+}

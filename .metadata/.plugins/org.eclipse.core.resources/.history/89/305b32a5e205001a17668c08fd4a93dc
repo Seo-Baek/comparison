@@ -1,0 +1,25 @@
+package prexercise01;
+
+public class ProInBook6_1Method {
+
+	public static void main(String[] args) {
+		int sum, min, mul, quo, rem;
+		
+		sum = method1(12) + method2(23);
+		
+
+	}//main
+
+
+
+	public static void method1 (int i) {
+		System.out.println(i);
+		
+	}
+	public static void method2 (int j) {
+		System.out.println(j);
+		
+	}
+	
+	
+}//class

@@ -1,0 +1,46 @@
+package prexercise01;
+
+public class Rev_Tri {
+
+	public static void main(String[] args) {
+		System.out.println("*********");
+		System.out.println(" ******* ");
+		System.out.println("  *****  ");
+		System.out.println("   ***   ");
+		System.out.println("    *    ");
+		
+		int n = 0;
+		int b = 0;
+		int s = 9;
+		
+		while (n < 5) {
+			b = 0;
+			s = 9;
+			
+			
+			
+			while (b < n) {
+				System.out.println(' ');
+				b++;
+			}
+			while (0 < s) {
+				System.out.println('*');
+				s--;
+			}
+			
+			n++;
+		}
+		
+		
+		
+		
+		
+		
+				
+			
+		
+		
+
+	}//main
+
+}//class

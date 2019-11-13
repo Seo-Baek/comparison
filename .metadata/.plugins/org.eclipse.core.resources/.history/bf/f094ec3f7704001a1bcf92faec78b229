@@ -1,0 +1,26 @@
+package chapter01;
+
+import java.util.Scanner;
+
+public class DoWhileTest {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		int input = 0;
+		int sum = 0;
+		
+		do {
+			System.out.print("ют╥б[0 to quit]>");
+			input = scanner.nextInt();//blocking;
+	
+			System.out.println(input);
+			
+		} while (input > 0);
+		
+		
+		scanner.close();
+		
+	}//main
+
+}//class

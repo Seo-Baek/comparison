@@ -1,0 +1,21 @@
+package practice01;
+
+public class Prob05 {
+
+	public static void main(String[] args) {
+		
+		
+		int number = 6879;
+		String strNumber = String.valueOf(nember);
+		
+		for(int i = 0; i < 4; i++) {
+			char c = strNumber.charAt(i)
+					if(c == '3' || c == '6' || c =='9') {
+					Count++;
+					}
+		}
+		
+		
+	}
+
+}

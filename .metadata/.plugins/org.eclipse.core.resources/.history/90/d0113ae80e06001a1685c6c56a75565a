@@ -1,0 +1,7 @@
+package Parking;
+
+import chapter01.Car;
+
+public class Truck extends Car {
+
+}

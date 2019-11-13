@@ -1,0 +1,21 @@
+package practice01;
+
+public class Prob05 {
+
+	public static void main(String[] args) {
+		
+		
+		int number = 6879;
+		String strNumber = String.valueOf(nember);
+		
+		for(int i = 0; i < 4; i++) {
+			c = str.charAt(0)
+					if(c == '3' || c == 'c') {
+						clapCount++;
+					}
+		}
+		
+		
+	}
+
+}

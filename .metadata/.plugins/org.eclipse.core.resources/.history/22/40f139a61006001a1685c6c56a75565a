@@ -1,0 +1,8 @@
+package Parking;
+
+public  class Car {
+	 void park() {
+		 System.out.println("멈춤");
+	 }; // 추상클래스!!  구현이 안됨 (단순 확장성 때문에 생성된 클래스)
+
+}

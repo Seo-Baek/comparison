@@ -1,0 +1,24 @@
+package prexercise01;
+
+public class ProInBook5_5For {
+
+	public static void main(String[] args) {
+		// 1부터 10까지 곱해서 출력
+		int mul = 1;
+		
+		for(int num = 1; num < 11; num++) {
+			mul *= num;
+			
+		}
+		System.out.println("1부터 10까지의 곱: " + m);
+		
+		
+		// 구구단 중 5단을 출력하는 프로그램
+		// for문 사용
+		int 
+		
+		
+
+	}//main
+
+}//class

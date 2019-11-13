@@ -1,0 +1,8 @@
+package Parking;
+
+public class SportsCar extends Car {
+	void park() {
+		System.out.println("SportsCar: ÁÖÂ÷µÊ");
+	}
+
+}

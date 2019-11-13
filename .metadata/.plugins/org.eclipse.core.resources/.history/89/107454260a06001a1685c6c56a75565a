@@ -1,0 +1,10 @@
+package chapter01;
+
+public class Car {
+
+	public static void run() {
+		System.out.println("´Þ¸°´Ù. ");
+
+	}
+
+}

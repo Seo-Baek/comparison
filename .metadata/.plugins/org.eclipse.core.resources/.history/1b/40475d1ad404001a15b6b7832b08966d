@@ -1,0 +1,58 @@
+package prexercise01;
+
+public class ProInBook5_7DupForLable {
+
+	public static void main(String[] args) {
+		//구구단을 짝수만 외자
+		//단, 2단은 2x2, 4단은 4x4 ... 8단은 8x8까지만 출력
+		for (int i = 1; i < 10; i++) {
+			if (i % 2 != 0) {
+				continue;
+				
+			}else {
+				System.out.println(i + "단");
+				for (int j = 1; j <= i; j++) {
+					System.out.println(i + " X " + j + " = " + i*j);
+					
+				}
+				
+			}
+		
+		}
+		
+		
+		//AB + BA = 99를 만족하는 조합
+		
+//		int a = 0;
+//		int b = 0;
+//		
+//		while(a < 10) {
+//			while(b < 10) {
+//				if((a*10+b) + (b*10+a) == 99) {
+//					System.out.println(a + " , " + b);
+//					
+//				}
+//				b++;	
+//			}
+//			
+//			a++;
+//		}
+		
+		
+		for(int a = 0; a < 10; a++) {
+			for(int b = 0; b < 10; b++) {
+				if((a*10+b)+(b*10+a) == 99) {
+					System.out.println(a + " , " + b);
+					
+				}
+				
+			}
+			
+		}
+		
+		
+		
+
+	}//main
+
+}//class

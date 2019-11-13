@@ -1,0 +1,26 @@
+package prexercise01;
+
+public class ProInBook6_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Abs(7,1);
+	
+	}//main
+	
+	public static void Abs(int i, int j) {
+		if(i < j) {
+			System.out.println(j - i);
+			
+		} else {
+			System.out.println(i - j);
+			
+		}
+		
+		
+	}//Abs
+	
+	
+	
+
+}//class

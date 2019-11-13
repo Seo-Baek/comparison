@@ -1,0 +1,22 @@
+package practice01;
+
+public class Prob02 {
+
+	public static void main(String[] args) {
+		
+	
+		
+		for(int i = 10; i < 19; i++) {
+			for(int j = i - 9; j <= i; j++) {
+				System.out.print(j);
+				System.out.print(" ");
+			}
+			System.out.println("");
+			
+					
+		}
+		
+		
+	}//main
+
+}//class

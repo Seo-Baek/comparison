@@ -1,0 +1,8 @@
+package Parking;
+
+public class SportsCar {
+	void park() {
+		System.out.println("SportsCar: ÁÖÂ÷µÊ");
+	}
+
+}

@@ -1,0 +1,27 @@
+package chapter01;
+
+public class ArrayTest02 {
+
+	public static void main(String[] args) {
+		/*
+		 * 배열 변수 선언하는 방법
+		 */
+		int 	array1[];		// 1.비추천
+		int[] 	array2;		// 2.추천
+//		int[10] array3; 	// 3. 오류
+		
+		/*
+		 * 배열초기화 
+		 */
+		
+		array2 = new int[5];
+		
+		for(int n : array2) {
+			System.out.println(n);
+			
+		}
+		
+		
+	}//main
+
+}//class

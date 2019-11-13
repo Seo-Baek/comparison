@@ -1,0 +1,32 @@
+package prexercise01;
+
+public class ProInBook5_6ConBreInf {
+
+	public static void main(String[] args) {
+		//5-6-1
+		/** int num 	= 0;
+		 * int count 	=0;
+		 * while(num++<100) {
+		 * 		if (num%5 != 0 || nu%7 != 0) {
+		 * 			continue;
+		 * 		count++
+		 * 		System.out.println(num);
+		 * 		}
+		 * System.out.println("count : " + count);
+		 *  
+		 */
+
+		for(int num = 0, count = 0; num++ < 100;) {
+			if(num % 5 != 0 || num % 7 != 0) {
+				continue;
+				
+			}
+			count++;
+			System.out.println(num);
+		}
+		System.out.println("count : " + count);
+		
+		
+	}//main
+
+}//class

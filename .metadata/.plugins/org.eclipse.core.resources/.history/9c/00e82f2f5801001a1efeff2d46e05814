@@ -1,0 +1,31 @@
+package chapter01;
+
+public class SumInput {
+
+	public static void main(String[] args) {
+		int number = 10;
+		int sum = 0;
+		
+		int i = 0;
+		
+		//?
+		
+		
+		while(i <= number) {
+			System.out.println(i);
+			sum = sum + i;
+			
+			i++;
+			
+		}
+		
+		
+		System.out.println(number + "까지 합은" + i + "입니다.");
+		
+
+	}
+
+}
+
+
+//x + (x+1) + ....... (x+10)

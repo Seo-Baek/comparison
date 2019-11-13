@@ -1,0 +1,11 @@
+package Parking;
+
+public class Airplane implements Parkable {
+
+	@Override
+	public void park() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
